@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bankify - Next.js Banking Application
 
-## Getting Started
+Bankify is a modern, secure, and feature-rich banking application built using Next.js and TypeScript. It seamlessly integrates with Plaid and Dwolla, providing users with a robust platform to manage their finances effectively. With its sleek design and powerful features, Bankify ensures a smooth and intuitive banking experience for users.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Tech Stack](#tech-stack)
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Flow Chart
+**https://www.figma.com/file/PY3ecefmIhJxpk4KUJeBnq/Horizon-Banking-App-Flow-(Copy)?type=whiteboard&node-id=0-1&t=mLHnK6OEw0fdyoYG-0**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Figma File
+**https://www.figma.com/file/Z1c5EOSeplutWsdpmDcfjZ/Horizon-Banking-App-(Copy)?type=design&node-id=0-1&mode=design&t=02FpXHYNdhln188z-0**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tech Stack
 
-## Learn More
+- **Next.js**: Next.js powers Bankify's server-side rendering (SSR) capabilities, ensuring fast page loads and optimal performance.
+- **TypeScript**: Bankify is written in TypeScript, offering type safety and enhanced developer productivity.
+- **Appwrite**: Appwrite provides secure authentication services, ensuring the confidentiality of user data.
+- **Plaid**: Bankify seamlessly integrates with Plaid for secure bank account linking and financial data aggregation.
+- **Dwolla**: Dwolla enables easy fund transfers between bank accounts with robust security measures in place.
+- **React Hook Form**: React Hook Form facilitates form handling with minimal boilerplate, enhancing user interaction.
+- **Zod**: Zod ensures robust data validation and schema enforcement, promoting data integrity throughout the application.
+- **TailwindCSS**: TailwindCSS powers Bankify's sleek and responsive design, ensuring a consistent user experience across devices.
+- **Chart.js**: Chart.js enables the visualization of financial data, providing users with insightful analytics and reports.
+- **ShadCN**: (Note: Couldn't find reference to "ShadCN" in the provided tech stack. If it's a custom library or component, please provide more details for inclusion.)
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Authentication**: Bankify implements ultra-secure SSR authentication with proper validations and authorization, safeguarding user accounts from unauthorized access.
+- **Connect Banks**: Users can seamlessly link multiple bank accounts using Plaid, providing a consolidated view of their finances within Bankify.
+- **Home Page**: The home page offers a comprehensive overview of the user's account, including total balance from all connected banks, recent transactions, and expenditure breakdown by category.
+- **My Banks**: Users can view a complete list of all connected banks along with their respective balances and account details for easy management.
+- **Transaction History**: Bankify provides pagination and filtering options for viewing transaction history across different banks, enabling users to track their financial activities effectively.
+- **Real-time Updates**: Any changes made, such as connecting new bank accounts, are instantly reflected across all relevant pages, ensuring real-time updates and a seamless user experience.
+- **Funds Transfer**: Bankify allows users to transfer funds securely using Dwolla to other accounts, with required fields and recipient bank ID verification.
+- **Responsiveness**: Bankify is designed to be fully responsive, adapting seamlessly to various screen sizes and devices, ensuring a consistent and enjoyable user experience across desktop, tablet, and mobile platforms.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+1. Sign up or log in to Bankify using secure authentication.
+2. Connect your bank accounts using the Plaid integration.
+3. Explore the home page to get an overview of your account balance, recent transactions, and expenditure breakdown.
+4. Navigate to the "My Banks" page to manage your connected bank accounts.
+5. View transaction history, filter, and paginate through transactions across different banks.
+6. Transfer funds securely to other accounts using Dwolla.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+© 2024 Bankify. All Rights Reserved.
