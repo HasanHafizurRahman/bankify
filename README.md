@@ -10,12 +10,6 @@ Bankify is a modern, secure, and feature-rich banking application built using Ne
 - [Contributing](#contributing)
 - [License](#license)
 
-## Flow Chart
-**https://www.figma.com/file/PY3ecefmIhJxpk4KUJeBnq/Horizon-Banking-App-Flow-(Copy)?type=whiteboard&node-id=0-1&t=mLHnK6OEw0fdyoYG-0**
-
-## Figma File
-**https://www.figma.com/file/Z1c5EOSeplutWsdpmDcfjZ/Horizon-Banking-App-(Copy)?type=design&node-id=0-1&mode=design&t=02FpXHYNdhln188z-0**
-
 ## Tech Stack
 
 - **Next.js**: Next.js powers Bankify's server-side rendering (SSR) capabilities, ensuring fast page loads and optimal performance.
@@ -48,6 +42,12 @@ Bankify is a modern, secure, and feature-rich banking application built using Ne
 4. Navigate to the "My Banks" page to manage your connected bank accounts.
 5. View transaction history, filter, and paginate through transactions across different banks.
 6. Transfer funds securely to other accounts using Dwolla.
+
+## Flow Chart
+**https://www.figma.com/file/PY3ecefmIhJxpk4KUJeBnq/Horizon-Banking-App-Flow-(Copy)?type=whiteboard&node-id=0-1&t=mLHnK6OEw0fdyoYG-0**
+
+## Figma File
+**https://www.figma.com/file/Z1c5EOSeplutWsdpmDcfjZ/Horizon-Banking-App-(Copy)?type=design&node-id=0-1&mode=design&t=02FpXHYNdhln188z-0**
 
 ## Contributing
 
